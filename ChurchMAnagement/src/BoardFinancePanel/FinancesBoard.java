@@ -265,8 +265,14 @@ public class FinancesBoard extends javax.swing.JPanel {
                 .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
+        jTable1.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
+                {"23-11-22", "john widno", "349009", "pour l'eglise", "non active"},
+                {"23-11-22", "john widno", "33333", "pour l'eglise", "active"},
+                {"23-11-22", "john widno", "443", "pour l'eglise", "actibr"},
+                {"23-11-22", "john widno", "222", "pour l'eglise thansgiviin", "non active"},
+                {null, null, null, null, null},
                 {null, null, null, null, null},
                 {null, null, null, null, null},
                 {null, null, null, null, null},
@@ -276,6 +282,8 @@ public class FinancesBoard extends javax.swing.JPanel {
                 "Date", "Donnateur", "Montant", "Description", "Action"
             }
         ));
+        jTable1.setRowHeight(45);
+        jTable1.setSelectionBackground(new java.awt.Color(255, 255, 255));
         jScrollPane1.setViewportView(jTable1);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);

@@ -4,6 +4,8 @@
  */
 package BoardCeremonie;
 
+import GestionMembres.EditerUnmembre;
+
 /**
  *
  * @author Dorcy
@@ -175,6 +177,11 @@ public class Nouveauparticipant extends javax.swing.JDialog {
         jLabel39.setFont(new java.awt.Font("Arial", 2, 14)); // NOI18N
         jLabel39.setText("voir plus...");
         jLabel39.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel39.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel39MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout cardmembreinfosLayout = new javax.swing.GroupLayout(cardmembreinfos);
         cardmembreinfos.setLayout(cardmembreinfosLayout);
@@ -401,6 +408,13 @@ public class Nouveauparticipant extends javax.swing.JDialog {
         
            dispose();
     }//GEN-LAST:event_jButton31ActionPerformed
+
+    private void jLabel39MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel39MouseClicked
+EditerUnmembre edm = new EditerUnmembre(null, rootPaneCheckingEnabled);
+edm.setVisible(true);
+        
+        
+    }//GEN-LAST:event_jLabel39MouseClicked
 
     /**
      * @param args the command line arguments

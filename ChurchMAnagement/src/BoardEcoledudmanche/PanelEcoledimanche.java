@@ -143,8 +143,13 @@ public class PanelEcoledimanche extends javax.swing.JPanel {
 
         jLabel17.setFont(new java.awt.Font("Segoe UI", 2, 14)); // NOI18N
         jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel17.setText("rappar");
+        jLabel17.setText("rapport classe");
         jLabel17.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel17.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel17MouseClicked(evt);
+            }
+        });
 
         jLabel14.setFont(new java.awt.Font("Segoe UI", 2, 14)); // NOI18N
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BoardMAnagement/MainIcnone/icons8_save_32px.png"))); // NOI18N
@@ -239,6 +244,11 @@ public class PanelEcoledimanche extends javax.swing.JPanel {
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
       
     }//GEN-LAST:event_jLabel1MouseClicked
+
+    private void jLabel17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel17MouseClicked
+        FicheRapportClasse frc= new FicheRapportClasse(null, true);
+        frc.setVisible(true);
+    }//GEN-LAST:event_jLabel17MouseClicked
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
