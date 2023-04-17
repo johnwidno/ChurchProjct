@@ -3,15 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Dorcy/Documents/NetBeansProjects/ChurchMAnagement/src/Testpact/JpanelNotification.java</file>
-            <file>file:/C:/Users/Dorcy/Documents/NetBeansProjects/ChurchMAnagement/src/raven/glasspanepopup/GlassPanePopup.java</file>
-            <file>file:/C:/Users/Dorcy/Documents/NetBeansProjects/ChurchMAnagement/src/Testpact/Notification.java</file>
-            <file>file:/C:/Users/Dorcy/Documents/NetBeansProjects/ChurchMAnagement/src/BoardEcoledudmanche/FicheRapportClasse.java</file>
-            <file>file:/C:/Users/Dorcy/Documents/NetBeansProjects/ChurchMAnagement/src/BoardCeremonie/StarsPanel.java</file>
-            <file>file:/C:/Users/Dorcy/Documents/NetBeansProjects/ChurchMAnagement/src/BoardCeremonie/GestionsainteSaine.java</file>
-            <file>file:/C:/Users/Dorcy/Documents/NetBeansProjects/ChurchMAnagement/src/BoardCeremonie/Nouveauparticipant.java</file>
-            <file>file:/C:/Users/Dorcy/Documents/NetBeansProjects/ChurchMAnagement/src/Testpact/JbMenuBouton.java</file>
-            <file>file:/C:/Users/Dorcy/Documents/NetBeansProjects/ChurchMAnagement/src/BoardCeremonie/SainteScene.java</file>
+            <file>file:/C:/Users/Dorcy/Documents/NetBeansProjects/ChurchMAnagement/src/Loginpakcage/Login.java</file>
+            <file>file:/C:/Users/Dorcy/Documents/NetBeansProjects/ChurchMAnagement/src/BoardMAnagement/Main.java</file>
+            <file>file:/C:/Users/Dorcy/Documents/NetBeansProjects/ChurchMAnagement/src/BoardMAnagement/ProfileEglise.java</file>
+            <file>file:/C:/Users/Dorcy/Documents/NetBeansProjects/ChurchMAnagement/src/BoardMAnagement/PanelUtilisateur.java</file>
+            <file>file:/C:/Users/Dorcy/Documents/NetBeansProjects/ChurchMAnagement/src/CulteServirces/Bordculte.java</file>
         </group>
     </open-files>
 </project-private>
